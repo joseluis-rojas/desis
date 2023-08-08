@@ -1,7 +1,7 @@
 <?php
 class Cconexion{
     function ConexionDB(){
-        //incorporar los valores corespondientes en las variables
+        //incorporar los valores correspondientes en las variables
         $nombreServidor = "localhost";
         $usuario = "";
         $contrasena = "";
