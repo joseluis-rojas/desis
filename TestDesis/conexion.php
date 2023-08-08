@@ -1,9 +1,10 @@
 <?php
 class Cconexion{
     function ConexionDB(){
+        //incorporar los valores corespondientes en las variables
         $nombreServidor = "localhost";
-        $usuario = "intphar";
-        $contrasena = "q1w2e3.q";
+        $usuario = "";
+        $contrasena = "";
         $nombreBaseDatos = "VOTACION";
         $puerto = 1433;
 
