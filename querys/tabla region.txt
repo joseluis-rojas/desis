@@ -1,0 +1,24 @@
+USE [VOTACION]
+GO
+
+/****** Object:  Table [dbo].[REGION]    Script Date: 08/08/2023 15:49:11 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[REGION](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [varchar](500) NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+

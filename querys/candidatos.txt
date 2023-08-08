@@ -1,0 +1,6 @@
+INSERT INTO CANDIDATO (candidato) VALUES
+('Gabriel Boric'),
+('Yasna Provoste'),
+('Sebastián Sichel'),
+('José Antonio Kast'),
+('Franco Parisi');

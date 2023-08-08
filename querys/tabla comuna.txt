@@ -1,0 +1,25 @@
+USE [VOTACION]
+GO
+
+/****** Object:  Table [dbo].[COMUNA]    Script Date: 08/08/2023 15:46:37 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[COMUNA](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[nombre] [varchar](500) NULL,
+	[id_region] [int] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
